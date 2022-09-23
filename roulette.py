@@ -1,16 +1,10 @@
 import random
 
-# Shit i use to make shit work
-
 bullets = str([1, 2, 3, 4, 5, 6, 7])
 x = random.randint(1,7)
 userInput = 0
 
-#Experimental shit
-
 game = True
-
-# Shit that uses the shit that makes the shit work so the shit can work
 
 while game == True:
     try:
