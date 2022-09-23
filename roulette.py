@@ -2,8 +2,8 @@ import random
 
 # Shit i use to make shit work
 
-bullets = str([1, 2, 3, 4, 5, 6])
-x = random.randint(1,6)
+bullets = str([1, 2, 3, 4, 5, 6, 7])
+x = random.randint(1,7)
 userInput = 0
 
 #Experimental shit
@@ -14,7 +14,7 @@ game = True
 
 while game == True:
     try:
-        userInput = int(input("Choose a chamber between 1 and 6: "))
+        userInput = int(input("Choose a chamber between 1 and 7: "))
     except ValueError:
         print("You failed to choose a number...")
         print("")
@@ -33,7 +33,7 @@ while game == True:
         input("Press enter to pull the trigger")
         print("")
 
-        if userInput >= 7:
+        if userInput >= 8:
             print("You tried to shoot the 7th chamber of a 6 chamber gun...")
             print("")
             print("...")
