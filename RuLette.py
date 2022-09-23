@@ -28,7 +28,7 @@ while game == True:
         print("")
 
         if userInput >= 8:
-            print("You tried to shoot the 7th chamber of a 6 chamber gun...")
+            print("You tried to shoot the " + str(userInput) + "th chamber of a 7 chamber gun...")
             print("")
             print("...")
             print("")
